@@ -1,5 +1,5 @@
 var appName = 'mean';
-var app = angular.module(appName, ['ngResource', 'ngRoute', 'users', 'example']);
+var app = angular.module(appName, ['ngResource', 'ngRoute', 'users', 'index']);
 
 //manual initialisation
 angular.element(document).ready(function() {
