@@ -14,7 +14,6 @@ var UserSchema = new Schema({
     provider: String,
     providerId: String,
     providerData: {},
-    todos: {}
 });
 
 UserSchema.pre('save',
